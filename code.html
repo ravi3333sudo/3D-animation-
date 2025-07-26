@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimAI - AI-Powered 3D Design Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #ff3366 0%, #ff8c00 100%);
+        }
+        .editor-window {
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        .tool-btn {
+            transition: all 0.3s ease;
+        }
+        .tool-btn:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body class="font-['Poppins'] bg-gray-50">
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-12 px-6 text-center">
+        <h1 class="text-4xl font-bold mb-4">3D Animations <br>Made Stupid Simple</h1>
+        <p class="text-lg mb-6 max-w-2xl mx-auto">Dumb easy AI tools for creating wild 3D content</p>
+        <button class="bg-black text-white font-bold py-2 px-6 rounded-full text-base hover:bg-gray-800 transition">
+            Start Creating Free
+        </button>
+        <div class="mt-16 editor-window bg-white mx-auto p-2 max-w-5xl">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e264fa06-99ef-4c9e-9ab3-a0c51f5500f0.png" alt="3D cartoon animation interface with character design tools and timeline editor" class="rounded-xl">
+        </div>
+    </header>
+
+    <!-- AI Tools Section -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-4">Powered By Cutting-Edge AI</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-12">
+            <div class="bg-white p-4 rounded-lg border border-gray-200 text-center">
+                <div class="bg-gray-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">AI Character Builder</h3>
+                <p class="text-gray-600">Describe your character and our AI generates a 3D model with customizable features</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Auto Lip-Sync</h3>
+                <p class="text-gray-600">Upload audio and our AI automatically animates mouth movements</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a1 1 0 01.894 1.447l-4.764 9.381a1 1 0 01-1.843-.057L9 14l-6-6" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Motion Transfer</h3>
+                <p class="text-gray-600">Record yourself and apply the movements to any 3D character</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hosting Solution Section -->
+    <section class="py-12 bg-white px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-center mb-8">No Fuss Hosting</h2>
+            <div class="bg-gray-50 rounded-lg p-6 border border-gray-200">
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold mb-4">🎬 AnimHost Pro</h3>
+                        <p class="text-gray-600 mb-6">We provide everything you need to publish and share your creations:</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span>1-click publishing to animated MP4/GIF</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span>Embeddable player for websites</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span>Unlimited bandwidth for previews</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-1 bg-gray-50 rounded-lg p-6">
+                        <h4 class="font-bold mb-4">Recommended Hosting Plans</h4>
+                        <div class="space-y-4">
+                            <div class="border rounded-lg p-4 hover:border-purple-500 transition">
+                                <div class="flex justify-between">
+                                    <h5 class="font-bold">Basic Animator</h5>
+                                    <span class="font-bold">$9/month</span>
+                                </div>
+                                <p class="text-sm text-gray-600">Up to 10 minutes animation storage</p>
+                            </div>
+                            <div class="border rounded-lg p-4 bg-purple-50 border-purple-300 hover:border-purple-500 transition">
+                                <div class="flex justify-between">
+                                    <h5 class="font-bold text-purple-700">Studio Pro</h5>
+                                    <span class="font-bold text-purple-700">$29/month</span>
+                                </div>
+                                <p class="text-sm text-gray-600">Unlimited anim storage • 4K resolution</p>
+                            </div>
+                            <div class="border rounded-lg p-4 hover:border-purple-500 transition">
+                                <div class="flex justify-between">
+                                    <h5 class="font-bold">Enterprise</h5>
+                                    <span class="font-bold">Custom</span>
+                                </div>
+                                <p class="text-sm text-gray-600">White-label hosting • API access</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommended AI Tools -->
+    <section class="py-12 px-6 max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-center mb-4">Cool Tools We Like</h2>
+        <p class="text-center text-gray-500 max-w-2xl mx-auto mb-8">Some rad tools to check out</p>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/36dfc4f4-60e7-4f2a-8668-9a70f310c777.png" alt="Screenshot of Kaedim 3D AI design interface with character modeling tools" class="w-full">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">1. Kaedim</h3>
+                    <p class="text-gray-600 mb-4">Turn 2D images into 3D models instantly with AI</p>
+                    <a href="https://www.kaedim3d.com" target="_blank" class="text-purple-600 font-medium">Visit Site →</a>
+                </div>
+            </div>
+            
+            <div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/651f4abe-9eaf-4641-a488-3c76892bfb8e.png" alt="Screenshot of DeepMotion animation AI interface with motion capture features" class="w-full">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">2. DeepMotion</h3>
+                    <p class="text-gray-600 mb-4">AI-powered 3D animation from video input</p>
+                    <a href="https://www.deepmotion.com" target="_blank" class="text-purple-600 font-medium">Visit Site →</a>
+                </div>
+            </div>
+            
+            <div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/740cb890-b38c-46ec-9135-5891cbeea29d.png" alt="Screenshot of Ready Player Me avatar creation platform showing 3D character designs" class="w-full">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">3. Ready Player Me</h3>
+                    <p class="text-gray-600 mb-4">Create 3D avatars from photos</p>
+                    <a href="https://readyplayer.me" target="_blank" class="text-purple-600 font-medium">Visit Site →</a>
+                </div>
+            </div>
+            
+            <div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/24383275-b9cc-4fe3-be05-bd01d180ea2b.png" alt="Screenshot of Plask motion capture tool with animation timeline" class="w-full">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">4. Plask</h3>
+                    <p class="text-gray-600 mb-4">AI-powered motion capture tool</p>
+                    <a href="https://plask.ai" target="_blank" class="text-purple-600 font-medium">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
